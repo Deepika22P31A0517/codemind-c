@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,r,s=0,d;
+    int n,d,r,s=0;
     scanf("%d",&n);
     r=n*n;
     while(r!=0)
@@ -11,11 +11,7 @@ int main()
         s=s+d;
     }
     if(s==n)
-    {
-        printf("Neon Number");
-    }
+    printf("Neon Number");
     else
-    {
-        printf("Not Neon Number");
-    }
+    printf("Not Neon Number");
 }
