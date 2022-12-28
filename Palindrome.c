@@ -11,11 +11,7 @@ int main()
         s=s*10+r;
     }
     if(s==n)
-    {
-        printf("True");
-    }
+    printf("True");
     else
-    {
-        printf("False");
-    }
+    printf("False");
 }
