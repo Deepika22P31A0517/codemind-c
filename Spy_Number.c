@@ -1,20 +1,19 @@
 #include<stdio.h>
 int main()
 {
-    int n,r,s=0,d=1;
+    int n,s=0,d=1,r;
     scanf("%d",&n);
-    while(n>0)
+    for(;n>0;)
     {
         r=n%10;
         n=n/10;
         s=s+r;
         d=d*r;
     }
-    if(d==s)
+    if(s==d)
     {
         printf("Spy Number");
     }
-    
     else
     {
         printf("Not Spy Number");
