@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int x,y,z,avg;
-    scanf("%d%d%d",&avg,&x,&y);
-    z=3*avg-x-y;
-    printf("%d",z);
+    int a,b,c,avg;
+    scanf("%d%d%d",&avg,&a,&b);
+    c=3*avg-a-b;
+    printf("%d",c);
 }
