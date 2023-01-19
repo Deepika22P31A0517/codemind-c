@@ -10,10 +10,16 @@ int main()
     if(n%2==0)
     {
         if(n>=2&&n<=5)
-        printf("not weird");
+        {
+            printf("not weird");
+        }
         else if(n>=6&&n<=20)
-        printf("weird");
+        {
+            printf("weird");
+        }
         else
-        printf("not weird");
+        {
+            printf("not weird");
+        }
     }
 }
