@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include <stdio.h> 
 int main()
 {
-char color;
-scanf("%c",&color);
-switch(color)
-{
+    char color;
+    scanf("%c",&color);
+    switch(color)
+    {
     case 'V':
     printf("Violet");
     break;
